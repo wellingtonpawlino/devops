@@ -26,4 +26,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: fernandos/app-net-lab:latest, fernandos/app-net-lab:${{ github.run_number }}
+          tags: wellingtonpawlino/devops:latest, wellingtonpawlino/devops-lab:${{ github.run_number }}
