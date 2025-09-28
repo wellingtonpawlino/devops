@@ -23,7 +23,7 @@ jobs:
     - name: Build and push Docker image     
       uses: docker/build-push-action@v5
       with:
-          context: .
-          file: ./Dockerfile
+          context: ./devops
+          file: ./devops/Dockerfile
           push: true
           tags: wellingtonpawlino/devops:latest, wellingtonpawlino/devops-lab:${{ github.run_number }}
